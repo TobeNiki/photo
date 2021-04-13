@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./backimg.css">
+</head>
+<body>
+    <div id="app">
+    <transition>
+        <component :is="currentImage" v-show="flag" />
+    </transition>
+    </div>
+    <img class="title" src="./img/name.png">
+    <script type="text/javascript" src="vue.js"></script>
+    <script type="text/javascript" src="backimg.js"></script>
+</body>
+</html>

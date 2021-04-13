@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.bg_image {
+    background-image: url(./img/NAV_0077.JPG);
+    background-size: cover;
+    background-position: center, center;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    padding: 0;
+    position: fixed;
+    left: 50px;
+    top: 50px;
+    
+}
+
